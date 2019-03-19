@@ -14,7 +14,7 @@ figcaption{
     font-family: Georgia, 'Times New Roman', Times, serif; */
     font: normal 0.75em/1.5em Georgia, 'Times New Roman', Times, serif;
     color: tomato;
-    text-align: right
+
 }
 
 /* class selector */
@@ -53,4 +53,10 @@ another way for psuedo selector write evrey elemnt alone
 }
 #details a:active{
     color: red;
+}
+
+#promotional figure video{
+
+    width: 50%;
+    height: 350px;
 }
