@@ -48,9 +48,9 @@ another way for psuedo selector write evrey elemnt alone
     text-decoration: none
 }*/
 #details a:hover{
-    color: black;
+    color: red;
     text-decoration: underline;
 }
 #details a:active{
-    color: red;
+    color: blue;
 }
