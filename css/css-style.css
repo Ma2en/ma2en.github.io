@@ -27,6 +27,9 @@ figcaption{
 /* ID selector */
 #logo{
  background: aqua;
+ padding-left: 50px; 
+ padding-right: 50px;
+ width: 12em;
 }
 
 #logo h1{
@@ -37,6 +40,15 @@ figcaption{
 #logo h2{
     font-family: 'Elsie Swash Caps', cursive;
 }
+
+header nav a:hover{
+    color: red;
+}
+
+header nav a:active{
+    color: black;
+}
+
 #details a:link, #details a:visited{
     color: black;
     text-decoration: none
@@ -48,10 +60,11 @@ another way for psuedo selector write evrey elemnt alone
     text-decoration: none
 }*/
 #details a:hover{
-    color: black;
+    color: red;
     text-decoration: underline;
 }
 #details a:active{
+<<<<<<< HEAD
     color: red;
 }
 
@@ -59,4 +72,7 @@ another way for psuedo selector write evrey elemnt alone
 
     width: 50%;
     height: 350px;
+=======
+    color: blue;
+>>>>>>> site-style
 }
