@@ -1,0 +1,20 @@
+
+div{
+   background-color: blue ;
+   border: 3px double red;
+   padding: 20px 30px 40px 50px;
+   margin: 20px 5px 40px 100px;
+}
+
+.fluid-size{
+    width: 20%;
+}
+
+/*.elastic-size{
+    width: 5.5em;/* نقسم العرض المراد عملة بالبيكسل على 16 لمعرفة كم يساوي بال اي ام
+
+}*/
+.threshold-size{
+    min-width:250px ;
+    max-width: 500px;
+}
